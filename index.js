@@ -4,7 +4,7 @@ var Bot = new Discord.Client();
 var prefix = ("/");
 
 Bot.on('ready', () => {
-  Bot.user.setPresence({ game: { name: '[/aide] Bot sharingan'}})
+  Bot.user.setPresence({ game: { name: '[/aide]'}})
   console.log("Bot pret !");
 });
 
