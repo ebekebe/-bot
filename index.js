@@ -11,7 +11,7 @@ Bot.on('ready', () => {
 Bot.login(process.env.TOKEN);
 
 Bot.on('guildMemberAdd', member => {
-  member.guild.channel.find("name", "bienvenue").send('bienvenue ${member}')})
+  member.guild.channel.find("name", "général").send('bienvenue ${member}')})
 
 Bot.on('message', message => {
 
