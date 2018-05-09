@@ -11,13 +11,7 @@ Bot.on('ready', () => {
 Bot.login(process.env.TOKEN);
 
 Bot.on('guildMemberAdd', member => {
-  // Send the message to a designated channel on a server:
-  const channel = member.guild.channels.find('name', 'member-log');
-  // Do nothing if the channel wasn't found on this server
-  if (!channel) return;
-  // Send the message, mentioning the member
-  channel.send(`Welcome to the server, ${member}`);
-});
+  member.guild.channel.find("name", "bienvenue").send('bienvenue ${member}')})
 
 Bot.on('message', message => {
 
