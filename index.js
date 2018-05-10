@@ -28,7 +28,6 @@ Bot.on('message', message => {
      console.log("commande aide demandée !");
   }
 
-};
   
     if (message.content === prefix + "grade") {
       const embed = new Discord.RichEmbed()
