@@ -48,5 +48,20 @@ Bot.on('message', message => {
       message.channel.send({ embed });
       console.log("grade !");
     }
+  
+   if (message.content === prefix + "r1") {
+    const embed = new Discord.RichEmbed()
+      .setTitle("Pakhan/Пакхан")
+      .setAuthor("Dmitri", "https://i.imgur.com/hdWynbs.jpg")
+      .setDescription("chef faction")
+      .setColor(0x00AE86)
+      .setThumbnail("https://i.imgur.com/hdWynbs.jpg")
+      .setFooter("Кховтсиновскаыа ", "https://i.imgur.com/hdWynbs.jpg", )
+      .addField("Pakhan/Пакхан: ", "Chef d'une famille criminelle ou d'un gang russe.")
+      .addField("test")
+     
+    message.channel.send({ embed });
+    console.log("commande r1 !");
+  }
 
 });
