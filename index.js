@@ -20,10 +20,11 @@ Bot.on('message', message => {
       .setTitle("Liste des commandes")
       .setDescription("Embed des commande")
       .setColor(0x00AE86)
-      .addField("/aide", "pour afficher les commandes.", true)
-      .addField("/cree", "pour voir la date de creatation du bot.", true)
-      .addField("/createur", "pour voir le createur du bot.", true)
-      .addField("/grade", "grade de la faction", true)
+      .addField("/aide", "pour afficher les commandes.",)
+      .addField("/cree", "pour voir la date de creatation du bot./ plus operationnel", )
+      .addField("/createur", "pour voir le createur du bot./ plus operationnel", )
+      .addField("/grade", "grade de la faction", )
+    .addField("/r1 à /r9", "description des grade faction", )
       .setFooter("edite by Mohsvitry")
     message.channel.sendEmbed(embed);
      console.log("commande aide demandée !");
