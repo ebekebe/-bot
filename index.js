@@ -4,6 +4,7 @@ var Bot = new Discord.Client();
 var prefix = ("/");
 
 Bot.on('ready', () => {
+  Bot.user.setAvatar('./1.jpg').catch(console.error)
   Bot.user.setPresence({ game: { name: '[/aide]'}})
   console.log("Bot pret !");
 });
