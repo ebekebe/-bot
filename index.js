@@ -24,7 +24,7 @@ Bot.on('message', message => {
       .addField("/createur", "pour voir le createur du bot./ plus operationnel", )
       .addField("/grade", "grade de la faction", )
       .addField("/r1 à /r9", "description des grade faction", )
-      .setFooter("edite by Mohsvitry")
+      .setFooter("edited by Mohsvitry")
     message.channel.sendEmbed(embed);
      console.log("commande aide demandée !");
   }
