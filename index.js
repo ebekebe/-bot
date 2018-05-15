@@ -29,9 +29,8 @@ Bot.on('message', message => {
      console.log("commande aide demandée !");
   }
   
- if (message.content === prefix + "m") {
-   message.server.members.get("name", "200558025809985536").id;
-   //message.channel.send(`You wanted to kick: ${'user: 200558025809985536'}`);
+ if (message.content === prefix + "medi") {
+   message.channel.send(`You wanted to kick: ${'user: 200558025809985536'}`);
      console.log('tes ou pas là ');
    }
   
