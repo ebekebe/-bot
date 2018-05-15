@@ -194,14 +194,7 @@ if (message.content === prefix + "r2") {
     console.log("commande r9 !");
   }
 
-if (command === "com"){
-    let allowedRole = message.guild.roles.find("name", "ADMINISTRATEUR");
-    if (message.member.roles.has(allowedRole.id) {
-        // allowed access to command
-    } else {
-       // not allowed access
-    }
-}
+
 
   
 });
