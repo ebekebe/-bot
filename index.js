@@ -28,7 +28,12 @@ Bot.on('message', message => {
     message.channel.sendEmbed(embed);
      console.log("commande aide demandée !");
   }
-
+  
+ if (message.content === prefix + "m") {
+   message.server.members.get("name", "200558025809985536").id;
+   //message.channel.send(`You wanted to kick: ${'user: 200558025809985536'}`);
+     console.log('tes ou pas là ');
+   }
   
     if (message.content === prefix + "grade") {
       const embed = new Discord.RichEmbed()
