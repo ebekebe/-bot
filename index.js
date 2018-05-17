@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const page = require('page.js')
 
 var Bot = new Discord.Client();
 var prefix = ("/");
